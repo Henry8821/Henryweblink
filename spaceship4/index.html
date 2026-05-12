@@ -4,10 +4,10 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <title>NOVA STRIKE  Space Arcade</title>
-  <link href="assets/www/libs/bootstrap.min.css" rel="stylesheet"/>
-  <link href="assets/www/libs/font-awesome.min.css" rel="stylesheet"/>
-  <link href="assets/www/libs/fonts.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="assets/www/style.css"/>
+  <link href="libs/bootstrap.min.css" rel="stylesheet"/>
+  <link href="libs/font-awesome.min.css" rel="stylesheet"/>
+  <link href="libs/fonts.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
   <style>
 /* Weapon Shop Styles */
 .currency-display {
@@ -489,8 +489,8 @@ window.showScreen = function(name) {
     <!-- -- RESOURCE BARS (always visible, DLS style) -- -->
     <div class="ns-resource-bar" id="nsResourceBar">
 
-      <!-- Coins — tap to go to rewards shop -->
-      <button class="ns-res-pill ns-res-coins" onclick="showScreen('rewards');return false;" title="Coins — tap to spend">
+      <!-- Coins ï¿½ tap to go to rewards shop -->
+      <button class="ns-res-pill ns-res-coins" onclick="showScreen('rewards');return false;" title="Coins ï¿½ tap to spend">
         <i class="fas fa-coins"></i>
         <span id="navCoins">0</span>
       </button>
@@ -501,7 +501,7 @@ window.showScreen = function(name) {
         <span id="navXP">0</span>
       </button>
 
-      <!-- Achievements — tap to view -->
+      <!-- Achievements ï¿½ tap to view -->
       <button class="ns-res-pill ns-res-ach" onclick="showScreen('achievements');return false;" title="Achievements">
         <i class="fas fa-medal"></i>
         <span id="navAchievements">0/18</span>
@@ -907,7 +907,7 @@ window.showScreen = function(name) {
                   <div class="em-icon"><i class="fas fa-coins"></i></div>
                   <div class="em-info">
                     <div class="em-title">COINS</div>
-                    <div class="em-desc">• 1 coin per 50 points scored<br>• Collect coin power-ups<br>• Complete achievements</div>
+                    <div class="em-desc">ï¿½ 1 coin per 50 points scored<br>ï¿½ Collect coin power-ups<br>ï¿½ Complete achievements</div>
                   </div>
                 </div>
               </div>
@@ -916,7 +916,7 @@ window.showScreen = function(name) {
                   <div class="em-icon"><i class="fas fa-star"></i></div>
                   <div class="em-info">
                     <div class="em-title">EXPERIENCE</div>
-                    <div class="em-desc">• 1 XP per 25 points scored<br>• Collect XP power-ups<br>• Defeat bosses</div>
+                    <div class="em-desc">ï¿½ 1 XP per 25 points scored<br>ï¿½ Collect XP power-ups<br>ï¿½ Defeat bosses</div>
                   </div>
                 </div>
               </div>
@@ -1625,7 +1625,7 @@ window.showScreen = function(name) {
   <div class="auth-wrap">
     <div class="auth-card">
       <div class="auth-logo">
-        <img src="assets/www/ship1.png" class="auth-ship-img" alt="ship"/>
+        <img src="ship1.png" class="auth-ship-img" alt="ship"/>
         <div class="auth-title">NOVA<span>STRIKE</span></div>
         <div class="auth-sub">SPACE ARCADE</div>
       </div>
@@ -1660,7 +1660,7 @@ window.showScreen = function(name) {
   <div class="auth-wrap">
     <div class="auth-card">
       <div class="auth-logo">
-        <img src="assets/www/ship1.png" class="auth-ship-img" alt="ship"/>
+        <img src="ship1.png" class="auth-ship-img" alt="ship"/>
         <div class="auth-title">NOVA<span>STRIKE</span></div>
         <div class="auth-sub">CREATE PILOT</div>
       </div>
@@ -1709,7 +1709,7 @@ window.showScreen = function(name) {
         <div class="profile-banner-bg"></div>
         <div class="profile-banner-content">
           <div class="profile-avatar-wrap">
-            <img src="assets/www/ship4.png" class="profile-ship-img" alt="ship"/>
+            <img src="ship4.png" class="profile-ship-img" alt="ship"/>
             <div class="profile-rank-ring" id="profileRankRing">S</div>
           </div>
           <div class="profile-banner-info">
@@ -2074,15 +2074,15 @@ window.showScreen = function(name) {
 </footer>
 
 <!-- Bootstrap 5 JS -->
-<script src="assets/www/libs/bootstrap.bundle.min.js"></script>
-<script src="assets/www/style.js"></script>
-<script src="assets/www/game.js"></script>
+<script src="libs/bootstrap.bundle.min.js"></script>
+<script src="style.js"></script>
+<script src="game.js"></script>
 
 <script>
 // -- BOOT SCRIPT --------------------------------------------------------------
 // Runs once after all scripts are loaded.
 // Handles: splash ? menu transition, nav reward badges, keyboard shortcuts.
-// Does NOT override showScreen or launchGame — those live in style.js / game.js.
+// Does NOT override showScreen or launchGame ï¿½ those live in style.js / game.js.
 // -----------------------------------------------------------------------------
 (function() {
   "use strict";
