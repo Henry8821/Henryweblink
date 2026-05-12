@@ -229,10 +229,10 @@ const SKIN_COLORS = ["#00aaff","#ff2244","#b400ff","#ffd60a"];
 
 // Ship definitions: each has a PNG, color, name, and stat bonuses
 const SHIP_DEFS = [
-  {id:0, img:"ship1.png",   name:"NOVA",      color:"#00aaff", desc:"Balanced fighter",      speedBonus:0,   shieldBonus:0,   fireBonus:0},
-  {id:1, img:"ship3.png",   name:"CRIMSON",   color:"#ff2244", desc:"Fast interceptor",      speedBonus:2,   shieldBonus:-20, fireBonus:1},
-  {id:2, img:"fighter.png", name:"PHANTOM",   color:"#b400ff", desc:"Heavy armor",           speedBonus:-1,  shieldBonus:30,  fireBonus:0},
-  {id:3, img:"ship4.png",   name:"SPECTRE",   color:"#ffd60a", desc:"Rapid fire specialist", speedBonus:1,   shieldBonus:-10, fireBonus:2},
+  {id:0, img:"assets/www/ship1.png",   name:"NOVA",      color:"#00aaff", desc:"Balanced fighter",      speedBonus:0,   shieldBonus:0,   fireBonus:0},
+  {id:1, img:"assets/www/ship3.png",   name:"CRIMSON",   color:"#ff2244", desc:"Fast interceptor",      speedBonus:2,   shieldBonus:-20, fireBonus:1},
+  {id:2, img:"assets/www/fighter.png", name:"PHANTOM",   color:"#b400ff", desc:"Heavy armor",           speedBonus:-1,  shieldBonus:30,  fireBonus:0},
+  {id:3, img:"assets/www/ship4.png",   name:"SPECTRE",   color:"#ffd60a", desc:"Rapid fire specialist", speedBonus:1,   shieldBonus:-10, fireBonus:2},
 ];
 
 // ─── GAME STATE ───────────────────────────────────────────────────────────────
@@ -1454,8 +1454,8 @@ function drawAsteroid(a) {
 var _enemyImgs = [];
 var _bossImgs  = [];
 (function(){
-  var eSrcs = ["enemy3.png", "enemy2.png", "Boss-SpaceShip-Game-Sprites2.png"];
-  var bSrcs = ["Boss.png", "boss2.png", "boss3.png"];
+  var eSrcs = ["assets/www/enemy3.png", "assets/www/enemy2.png", "assets/www/Boss-SpaceShip-Game-Sprites2.png"];
+  var bSrcs = ["assets/www/Boss.png", "assets/www/boss2.png", "assets/www/boss3.png"];
   eSrcs.forEach(function(src){
     var img = new Image();
     img.src = src;
